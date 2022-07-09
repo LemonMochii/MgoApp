@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+/* about */
+
+#about{
+	background-image:url("../img/about/bg-aboutus.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 40% center;
+}
+
+#ourstory{
+	background-color: #A967FF;
+}
+#ourstory .imgstory{
+	border-radius: 40px;
+	border: 10px double #fd94de;
+}
+
+#ourspecial .bg-special1{
+	background-color: #FF91AF;
+	border-radius: 30px;
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	top: -20px; left: 0;
+	z-index: -100;
+}
+#ourspecial .bg-special2{
+	background-color: #A967FF;
+	border-radius: 30px;
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	top: -20px; right: 0;
+	z-index: -100;
+}
+#ourspecial .roundedstoryimg{
+	border-radius: 30px;
+}
+#ourspecial .bg-special3{
+	background-color: #FF91AF;
+	border-radius: 30px;
+	width: 70%;
+	height: 100;
+	position: absolute;
+	top: -20px; left: 0;
+	z-index: -100;
+}
+@media(max-width:992px){
+	#ourspecial .bg-special1{
+	width: 70%;
+	height: 250px;
+	}
+	#ourspecial .bg-special2{
+	width: 70%;
+	height: 250px;
+	}
+	#ourspecial .bg-special3{
+	width: 70%;
+	height: 250px;
+	}
+}
+
+#ourstandard{
+	background-image: url("../img/about/bg-gradientnoisy-darkside.jpg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 30% center;
+}
+@media(max-width:992px){
+	#ourstandard{
+	background-image: url("../img/about/bg-gradientnoisy-darkside.jpg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 43% center;
+}
+
+#standard .nd-standard ul li{
+	list-style: none;
+}
+
+#standard .nd-standard .row ul li p{
+	font-size: .7rem;
+}
+#accordion .bg-cardheaderts{
+	background-color: rgba(255,255,255,0.5)
+}
+/*
+#client{
+	background-image: url(/images/bg-our\ client.png);
+	 width: 0%; 
+	background-position: center;
+	margin: 100px 0;
+}
+
+#form .btn {
+	width: 100%;
+	background-color: #8FA83B;
+	border: none;
+}
+*/
+
+/*
+#map{
+	margin: 50px 0 100px 0;
+}
+*/

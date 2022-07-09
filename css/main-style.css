@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+.mega-menu{
+	width: 800%;
+	margin-left: -400%;
+}
+@media(max-width:992px)
+{
+	.mega-menu{
+		width: 100%;
+		margin-left: 0;
+	}
+}
+@font-face{
+	font-family: fontbody;
+	src: url("../fonts/NunitoSans/NunitoSans-Regular.ttf")
+}
+@font-face{
+	font-family: fontbold;
+	src: url("../fonts/NunitoSans/NunitoSans-Bold.ttf")
+}
+@font-face{
+	font-family: fontexbold;
+	src: url("../fonts/NunitoSans/NunitoSans-ExtraBold.ttf")
+}
+.fontbody{
+	font-family: fontbody;
+}
+.fontbold{
+	font-family: fontbold;
+}
+.fontexbold{
+	font-family: fontexbold;
+}
+.btntron{
+	border-radius: 20px;
+}
+/*
+.bgbanner{
+	background-image: url("../img/export banner.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+*/
+.bgtrainghiem{
+	background-color: #E9E6FF;
+}
+.bg-boxstory{
+	font-family: fontbody;
+	background-color: #E9E6FF;
+	transition: transform .2s;
+}
+.bg-boxstory:hover{
+	background-color: #6F5AFF;
+	transform: scale(1.1);
+	color: white;
+	
+}
+.borderbox{
+	border-radius: 20px;
+}
+.boxtrans{
+	opacity: 0.5;
+}
+.bg-footer{
+	background-color: #DBD6FF;
+}
+.top-left {
+  position: absolute;
+  top: 35%;
+  left: 12%;
+}
+.containerbanner{
+	position: relative;
+	text-align: center;
+}
+.textbanner{
+	font-size: 50px;
+}
+.bgquetma{
+	background-color: #E9E6FF;
+/*
+	background-image: url("../img/testing-03-01 1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+*/
+
+}
+.circle {
+	background: #E9E6FF;
+	border-radius: 50%;
+	height: 1em;
+  	width: 1em;
+}
+.circleclick{
+	background: #6F5AFF;
+	border-radius: 50%;
+	height: 1em;
+  	width: 1em;
+}
+.bordergach{
+	border-left: 2px dashed #fff;
+}
+.containeruudai{
+	position: relative;
+}
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 15%;
+}
+.imguudai{
+	height: 420px;
+}

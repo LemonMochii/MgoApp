@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+#ourstaff{
+	background-image:url("../img/Staff/tittle.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 40% 0;
+}
+#staff{
+	background-image:url("../img/Staff/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#staff .tron-ourstaff{
+/*	background: rgba(169,103,255,1.0);*/
+	background-color: #99feff;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #A967FF;
+	
+}
+
+#staff .img-staff{
+	border-radius: 100%;
+	border: 10px inset #99feff;
+	cursor: pointer;
+}
+#staff .hoverbox{
+	cursor: pointer;
+}
+#staff .staff-icon{
+	position: absolute;
+	top:48%;left: 28%;
+	transition: all .7s;
+	opacity: 0;
+	transform: scale(0);
+}
+#staff .hoverbox:hover > .staff-icon{
+	opacity: 0.9;
+	transform: scale(1);
+}
+@media(max-width:992px){
+	.staff-icon{
+	position: absolute;
+	top:48%; left: -200%;
+	transition: all .7s;
+	opacity: 0;
+	transform: scale(0);
+}
+}
+#detailstaff{
+	background-image:url("../img/Staff/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
